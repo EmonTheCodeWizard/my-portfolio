@@ -1,0 +1,99 @@
+/* header section */
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-image: url(./images/banner/banner3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.header-text{
+    display: flex;
+    width: 525px;
+    flex-direction: column;
+}
+.header-container{
+    width: 525px;
+    padding: 216px 1100px 230px;
+    text-align: right;
+}
+.header-text{
+    color: #FFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.header-description{
+    color: #FFFFFF;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.btn-primary{
+    border-radius: 5px;
+    border: none;
+    color: #005FAC;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding: 20px 25px;
+}
+button:hover{
+    background-color: darkred;
+    color: white;
+    transition-duration: 0.6s;
+}
+div> h1, p, button{
+    padding-bottom: 20px;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+}
+.profile-picture{
+    padding: 140px 134px 49px 277px;
+}
+.body-container{
+    display: flex;
+    width: 366px;
+    flex-direction: column;
+    flex-shrink: 0;
+    padding: 370px 450px 215px 0px;
+}
+.body-title{
+    color: var(--dark-01, #151414);
+    font-family: Work Sans;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 24px;
+}
+.body-description{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+.bullet-points{
+    color: var(--dark-02, #444343);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
